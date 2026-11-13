@@ -1,0 +1,44 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and API keys
+.env
+.env.*
+*.env
+api_keys.txt
+secrets.json
+
+# Vector database persistence
+chroma_db/
+chroma_db_*
+
+# Competition output submissions (generated artifacts)
+submission.csv
+submission_partial.csv
+*.csv.tmp
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Scratch and log files
+scratch/
+*.log
+
